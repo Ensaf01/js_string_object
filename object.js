@@ -37,3 +37,5 @@ const bottle={
     }
 
 }
+
+console.log(bottle);
