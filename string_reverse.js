@@ -1,10 +1,10 @@
-const string1="i am a hero to zero. ";
+const string1="i am a hero to zero";
 //sortcut reverse string
 
 // const reversedStringx=string1.split("").reverse(); //without join() method we can not reverse string because reverse() method return array and we want string so we need to use join() method to convert array to string
-// console.log(reversedStringx);
+ //console.log(reversedStringx);
 
-const reversedString=string1.split("").reverse().join("");
+const reversedString=string1.split("").reverse().join(""); // reverse can not reverse string ,can reverse array
 console.log(reversedString);
 
 // normal reverse string
