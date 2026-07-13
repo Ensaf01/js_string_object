@@ -16,18 +16,19 @@ const person={
     }
 }
 person.events.push('event5');
+console.log("print 1->" +person.events); 
 person.events[2]='updated event3';
-console.log(person.events[2]);
+console.log("print 2->" +person.events[2]);
 // console.log(person['full name'].firstName);
-console.log(person['full name'].specialName.Nm);
+console.log("print 3->" +person['full name'].specialName.Nm);
 
 // delete object property
 delete person.isMarried;
-console.log(person);
+console.log( person);
 
 //delete keys values
 delete person['full name'].specialName.ag;
 console.log(person);
-console.log(person['full name'].specialName.ag);
+console.log(person['full name'].specialName.ag); // undefined because ag does not exist in object
 
 // nested object
