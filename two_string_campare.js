@@ -14,7 +14,7 @@ if (str0 === str01) {
 
 console.log("both string are same but space is different: use trim() method");
 // both string are same but space is different
-// for remove space we can use trim() method
+// for remove space we can use trim() method,just remove 1st and last space not middle space remove a sentence
 const str1 = "hello";
 const str2 = "   hello";
 if(str1.trim()===str2.trim()){
